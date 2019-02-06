@@ -1,0 +1,46 @@
+{
+	"name": "mapto",
+	"version": "1.0.0",
+	"description": "Plugins for Front-end",
+	"main": "index.js",
+	"scripts": {
+		"start": "gulp serve",
+		"build": "gulp build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ngocsangyem/MapTo.git"
+	},
+	"keywords": [
+		"front-end",
+		"mapto",
+		"plugins"
+	],
+	"author": "ngocsangyem",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ngocsangyem/MapTo/issues"
+	},
+	"homepage": "https://github.com/ngocsangyem/MapTo#readme",
+	"devDependencies": {
+		"@babel/core": "^7.2.2",
+		"@babel/preset-env": "^7.3.1",
+		"@babel/register": "^7.0.0",
+		"browser-sync": "^2.26.3",
+		"del": "^3.0.0",
+		"gulp": "^4.0.0",
+		"gulp-babel": "^8.0.0",
+		"gulp-if": "^2.0.2",
+		"gulp-load-plugins": "^1.5.0",
+		"gulp-minify": "^3.1.0",
+		"gulp-plumber": "^1.2.1",
+		"gulp-pug": "^4.0.1",
+		"gulp-sass": "^4.0.2",
+		"gulp-sourcemaps": "^2.6.4",
+		"gulp-uglify": "^3.0.1",
+		"minimist": "^1.2.0",
+		"run-sequence": "^2.2.1",
+		"yargs": "^12.0.5"
+	}
+}
